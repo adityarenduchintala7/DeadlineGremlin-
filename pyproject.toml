@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deadline-gremlin"
+version = "1.0.0"
+description = "A terminal task & deadline nagger with persistent Windows toast notifications"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Aditya" }
+]
+keywords = ["cli", "terminal", "task-checker", "todo", "notifications", "reminders", "windows"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities"
+]
+
+[project.scripts]
+task = "taskchecker.main:main"
+deadline-gremlin = "taskchecker.main:main"
+gremlin = "taskchecker.main:main"
+
+[tool.setuptools.packages.find]
+include = ["taskchecker*"]
+exclude = ["tests*"]
