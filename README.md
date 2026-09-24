@@ -7,7 +7,7 @@
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python)](https://python.org)
 [![Shell: PowerShell%20%7C%20CMD](https://img.shields.io/badge/Shell-PowerShell%20%7C%20CMD-5391FE.svg)](https://github.com)
 
-A relentless, lightweight, terminal-based task checker and deadline nagger for Windows. It quietly lives in your terminal and sends native Windows desktop toast notifications with audio chimes as your deadlines approach — **even after you shut down and reboot your computer**.
+A relentless, lightweight, terminal-based task checker and deadline nagger for Windows. It quietly lives in your terminal and sends native Windows desktop toast notifications with audio chimes as your deadlines approach -> **even after you shut down and reboot your computer**.
 
 ```text
        \   /
@@ -18,8 +18,8 @@ A relentless, lightweight, terminal-based task checker and deadline nagger for W
 ```
 
 📚 **Quick Documentation Links:**
-- 🔰 **[Beginner's Step-by-Step Guide (HOW_TO_USE.md)](HOW_TO_USE.md)** — Never used terminal before? Start here!
-- 📑 **[CLI Quick Reference & Cheatsheet (CHEATSHEET.md)](CHEATSHEET.md)** — All commands, flags, and date expressions.
+- 🔰 **[Beginner's Step-by-Step Guide (HOW_TO_USE.md)](HOW_TO_USE.md)** -> Never used terminal before? Start here!
+- 📑 **[CLI Quick Reference & Cheatsheet (CHEATSHEET.md)](CHEATSHEET.md)** -> All commands, flags, and date expressions.
 
 ---
 
